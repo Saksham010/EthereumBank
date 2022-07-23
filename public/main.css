@@ -1,0 +1,105 @@
+body{
+  font-family: "Helvetica Neue", "Open sans", sans-serif;
+  background-image: -webkit-linear-gradient(top left, #a802e0, #f7676a);
+  color:white;
+  letter-spacing: 3px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+
+}
+
+h1{
+  font-weight: 300;
+  font-size: 2.5em;
+  letter-spacing: 0px;
+
+}
+h2,h3,h5{
+
+  font-weight: 100;
+  text-align: left;
+  margin-left: 149px;
+}
+
+h2{
+  font-size:0.9em;
+}
+
+h3{
+  font-size:1.2em;
+  letter-spacing: 2px;
+}
+.container{
+  position: relative;
+  top:230px;
+  /* margin: 200px auto; */
+  border: 2px #d3d1d3 solid;
+  width:50%;
+  text-align: center;
+  border-radius:5px;
+  padding-bottom:40px;
+}
+
+
+
+
+#input{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  padding: 10px;
+  color: #fff;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 4px;
+  font-weight: 300;
+  outline: none;
+  font-weight: 100;
+  letter-spacing: 4px;
+  margin-left: 149px;
+  width: 550px;
+}
+
+#input::placeholder{
+  color: #d3d1d3;
+  font-weight: 100;
+  letter-spacing: 4px;
+  margin-left: 10px;
+}
+
+
+.button-container{
+  /* border:1px black solid; */
+  text-align: left;
+  padding-left: 149px;
+
+}
+.btn-two{
+  margin-left: 10px;
+}
+button{
+
+  font-size: 1.3em;
+  padding: 10px;
+  color: #fff;
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  outline: none;
+  font-weight: 100;
+  letter-spacing: 3px;
+  margin-left: 0px;
+  margin-top:20px;
+  border: 1px solid white;
+  display: bl;
+  width: 200px;
+
+}
+
+button:hover{
+  cursor: pointer;
+  font-weight: 300;
+  /* letter-spacing: 5px; */
+}

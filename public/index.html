@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ethereum Bank</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.7.4/web3.min.js"></script>
+    <link rel="stylesheet" href="./main.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1> Ethereum Bank</h1>
+      <h5 id="welcome-header"> Welcome: <span id="address"></span></h5>
+      <h2>Balance: <span id="balance"></span> ether</h2>
+
+      <h3> Enter the amount you want to deposit or withdraw :</h3>
+      <input type="text" id="input" placeholder="Amount">
+
+      <div class="button-container">
+        <button class="btn-one" id="deposit">Deposit</button>
+        <button class="btn-two" id="withdraw">Withdraw</button>
+      </div>
+    </div>
+  </body>
+  <script src="./app.js" ></script>
+
+</html>
